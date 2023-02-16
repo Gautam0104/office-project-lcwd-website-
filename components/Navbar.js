@@ -36,7 +36,7 @@ const Navbar = () => {
           </svg>
         </div>
         <div className="hidden lg:flex flex-row cursor-default text-lg  font-semibold mr-12">
-<NavLink className="mr-5 h-fit my-auto transition-all ease-linear hover:text-primary-dark hover:-translate-y-1" href="/home">Home</NavLink>
+<NavLink className="mr-5 h-fit my-auto transition-all ease-linear hover:text-primary-dark hover:-translate-y-1" href="/">Home</NavLink>
 <NavLink className=" h-fit my-auto transition-all ease-linear hover:text-primary-dark " href="/blogs">
 <h1 className="mr-5 h-fit my-auto transition-all ease-linear hover:text-primary-dark hover:-translate-y-1">Blogs</h1>
 </NavLink>
@@ -83,7 +83,7 @@ const Navbar = () => {
 <NavLink className="flex flex-row" href="/" onClick={hideMenu}>
 <h1 className="mx-auto w-fit text-lg font-semibold">Home</h1>
 </NavLink>
-<NavLink className="flex flex-row" href='/about' onClick={hideMenu}>
+<NavLink className="flex flex-row" href='/blogs' onClick={hideMenu}>
 <h1 className="mx-auto w-fit text-lg font-semibold flex-row">Blogs</h1>
 </NavLink>
 

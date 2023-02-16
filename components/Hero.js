@@ -1,9 +1,20 @@
 import React from 'react'
+import HeroSection from './HeroSection'
+import Motivation from './Motivation'
 
+import Video from './Video'
 const Hero = () => {
   return (
-    <div>
-        <h1>this is hero</h1>
+    
+        <div>
+   
+
+   <HeroSection />
+   <Motivation />
+   <Video />
+ 
+ 
+        
       
     </div>
   )
