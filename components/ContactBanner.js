@@ -3,8 +3,8 @@ import React from 'react'
 const ContactBanner = () => {
   return (
     <div className='mt-16'>
-           <div className="z-40 h-[36rem] flex flex-col justify-center bg-cover custom-img   " >
-<div className="rounded-3xl drop-shadow-2xl w-80 lg:w-fit mx-auto  bg-zinc-400/30 lg:bg-zinc-300/40 backdrop-blur-2xl py-4 ">
+           <div className="z-40 h-[36rem] flex flex-col justify-center bg-cover    " >
+<div className=" drop-shadow-2xl bg-white w-[95%] rounded-3xl  lg:w-fit mx-auto  py-4 ">
 <img alt="LCWD Logo" src='/Imgs/lcwd_logo.png' width="500" height="500" decoding="async" data-nimg="1" className="w-36 lg:w-48 mx-auto" />
 <h1 className="text-center text-primary-dark text-4xl lg:text-7xl font-semibold px-5 lg:px-24 mt-3">
 Feel Free to Contact Us
@@ -12,7 +12,7 @@ Feel Free to Contact Us
 <h1 className="text-center text-white px-5 lg:px-0 font-semibold lg:text-2xl my-4">
 Kindly Follow Us on Different Social Medias
 </h1>
-<div className="rounded-full border-[1px] border-white">
+<div className="rounded-full border-[1px] border-yellow-400 mx-1">
 </div>
 <div className="flex flex-row justify-center space-x-7 lg:space-x-16 px-5 lg:px-0 my-6">
 <a rel="noreferrer" target="_blank" href="https://instagram.com/durgesh_k_t">
@@ -28,7 +28,7 @@ Kindly Follow Us on Different Social Medias
 <img alt="Facebook Logo" src='/Imgs/facebook.png' width="512" height="512"  className="w-16 transition-all ease-linear hover:-translate-y-2" />
 </a>
 </div>
-<div className="rounded-full border-[1px] border-white">
+<div className="rounded-full border-[1px] border-yellow-400 mx-1">
 </div>
 </div>
 </div>

@@ -47,3 +47,9 @@ border-color: #e8c721;
   color: #FFEB3B;
  } */
 }
+.card {
+  background-color: theme('colors.white');
+  border-radius: theme('borderRadius.lg');
+  padding: theme('spacing.6');
+  box-shadow: theme('boxShadow.xl');
+}
