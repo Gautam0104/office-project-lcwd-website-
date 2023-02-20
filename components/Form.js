@@ -85,17 +85,20 @@ Corporate Enquiry
 <div className="w-full">
 <div id="headlessui-radiogroup-:r4:" role="radiogroup">
 <div className="space-y-2" role="none">
-<div className="bg-white relative flex cursor-pointer rounded-lg px-5 py-4 shadow-md focus:outline-none  ring-2 ring-white ring-opacity-60 ring-offset-2 ring-offset-yellow-400" id="headlessui-radiogroup-option-:r5:" role="radio" aria-checked="false" tabindex="0" data-headlessui-state="" aria-labelledby="headlessui-label-:r6:">
+<div className="bg-white relative flex cursor-pointer rounded-lg px-5 py-4 shadow-md focus:outline-none  ring-2 ring-white ring-opacity-60 ring-offset-2 ring-offset-yellow-400 appearance-none " id="headlessui-radiogroup-option-:r5:" role="radio" aria-checked="false" tabindex="0" data-headlessui-state="" aria-labelledby="headlessui-label-:r6:">
 <div className="flex w-full items-center justify-between">
 <div className="flex items-center">
 <div className="text-md">
-<p className="font-medium  text-gray-900" id="headlessui-label-:r6:">Development</p>
+<p className="font-medium  text-gray-900" id="headlessui-label-:r6:">Development 
+<input type="checkbox" class=" checked:bg-blue-500 ..." />
+</p>
 </div>
 </div>
 </div>
 </div>
 <div className="bg-white relative flex cursor-pointer rounded-lg px-5 py-4 shadow-md focus:outline-none  ring-2 ring-white ring-opacity-60 ring-offset-2 ring-offset-yellow-400" id="headlessui-radiogroup-option-:r7:" role="radio" aria-checked="false" tabindex="-1" data-headlessui-state="" aria-labelledby="headlessui-label-:r8:">
-<div className="flex w-full items-center justify-between"><div className="flex items-center">
+<div className="flex w-full items-center justify-between">
+<div className="flex items-center">
 <div className="text-md">
 <p className="font-medium  text-gray-900" id="headlessui-label-:r8:">Corporate Training</p>
 </div>
@@ -174,9 +177,9 @@ Corporate Enquiry
 </form>
 </main>
 </div>
-      
+{/* <input type="checkbox" class="text-black checked:bg-blue-500 ..." placeholder='test'/> */}
     </div>
-
+    
     </div>
   )
 }
