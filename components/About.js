@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <div className='  mt-16'>
-                 <div className="z-40 lg:h-[50rem] h-[65rem]  flex flex-col justify-center bg-cover bg-black   " >
+                 <div className="z-40 lg:h-[50rem] h-[65rem]  flex flex-col justify-center bg-cover custom-img   " >
 <div className="rounded-3xl drop-shadow-2xl w-80 lg:w-fit mx-auto  bg-zinc-400/30 lg:bg-zinc-300/40 backdrop-blur-2xl py-4 ">
 <img alt="LCWD Logo" src='/Imgs/lcwd_logo.png' width="500" height="500" decoding="async" data-nimg="1" className="w-36 lg:w-48 mx-auto " />
 <h1 className="  text-center text-primary-dark text-2xl lg:text-7xl font-semibold px-5 lg:px-24">

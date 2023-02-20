@@ -5,12 +5,12 @@ const Footer = () => {
     <div>
       
 
-<div className="hidden lg:flex z-50  right-0 left-0  bg-yellow-light text-gray-700 py-5 cursor-default underline-offset-4 selection:bg-secondary-dark selection:text-white ">
+<div className=" lg:flex z-50  right-0 left-0  bg-yellow-light text-gray-700 py-5 cursor-default underline-offset-4 selection:bg-secondary-dark selection:text-white  ">
 <div className="flex flex-col justify-center mx-10 lg:flex-row">
 <div className="flex flex-col w-72 mx-auto lg:mx-0 lg:mr-44">
 <img src="/Imgs/lcwd_logo.png" alt="logo" className="w-24 h-24 mx-auto mb-2" />
 <h1 className="font-bold text-lg text-center underline mb-3 lg:text-xl"> Learn Code With Durgesh </h1>
-<p className="text-justify text-sm lg:text-base">This Channel provide you a technical content like Java Programming , Python Programming , C Programming , PHP Programing , Android Development etc. Lean how to make software here.</p>
+<p className="text-justify text-sm lg:text-base">This Channel provide you a technical content like Java Programming, Python Programming, C Programming , PHP Programing , Android Development etc. Lean how to make software here.</p>
 </div>
 <div className=" flex flex-col justify-around py-4 px-3 mx-auto lg:mx-0 lg:mr-20">
 <h1 className="font-semibold text-lg text-center underline lg:text-xl"> Products </h1>
@@ -50,7 +50,8 @@ const Footer = () => {
 <div className="hidden lg:block rounded-full my-5 border-[1px] border-black mx-20">
 </div>
 <div className="flex flex-col justify-around py-4 px-3 mx-auto lg:mx-0">
-<h1 className="font-semibold text-lg text-center underline lg:text-xl"> Get In Touch </h1><div className="mt-3 flex flex-row lg:flex-col justify-around h-full">
+<h1 className="font-semibold text-lg text-center underline lg:text-xl"> Get In Touch </h1>
+<div className="mt-3 flex flex-row lg:flex-col justify-around h-full">
 <div className="flex flex-row text-sm mr-3 lg:text-base lg:mr-24">
 <img src="/Imgs/youtube.png" alt="youtube" className='w-6 h-6 mr-3' />
     <a href="https://www.youtube.com/learncodewithdurgesh" rel="noreferrer" target="_blank"> YouTube </a>
@@ -70,16 +71,17 @@ const Footer = () => {
 </div>
 </div>
 </div>
-{/* <div className="border-[1px] border-black my-2 lg:mx-20 lg:my-6">
+{/* <div className="border-[1px] border-black my-2 lg:mx-20 lg:my-6 ">
 </div>
-<div className="flex flex-col justify-center text-sm lg:flex-row lg:text-lg">
+<div className="flex flex-col justify-center text-sm lg:flex-row lg:text-lg bg-red-600 text-white">
 <div className="flex flex-row justify-center">
 <p className="mr-2">Copyright © 2023:</p>
 <p className="font-bold underline mr-2">Substring Technologies Pvt Ltd.</p>
 </div>
-<p className="mt-2 text-center">All Rights Reserved.</p>
+<p className="text-center">All Rights Reserved.</p>
 </div> */}
 </div>
+ 
     </div>
   )
 }
