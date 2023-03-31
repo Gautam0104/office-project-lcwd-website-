@@ -14,6 +14,7 @@ LCWD (Learn Code With Durgesh) is learning platform for learners which provides 
 </h1>
 <h1 className="text-center text-primary-dark text-4xl lg:text-5xl font-semibold px-5 lg:px-24 ">
 Must Read
+
 </h1>
 <h1 className="text-center text-zinc-700/60 px-5 lg:px-0 font-semibold lg:text-lg my-4 ml-4 mr-4">
 Although the videos and other content of Learncodewith Durgesh are free for anyone to watch, <br /> learn and share. 
@@ -29,7 +30,10 @@ All the donations will be used in buying new equipment,<br /> improving quality 
 
 </div>
 </div>
-
+{/* <div className="header">
+  <h1>learn code with durgesh is a learning platfa 
+  </h1>
+</div> */}
 </div>
 <div className='mt-16'>
 

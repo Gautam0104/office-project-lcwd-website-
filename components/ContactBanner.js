@@ -3,8 +3,8 @@ import React from 'react'
 const ContactBanner = () => {
   return (
     <div className='mt-16'>
-           <div className="z-40 h-[36rem] flex flex-col justify-center bg-cover    " >
-<div className=" drop-shadow-2xl bg-white w-[95%] rounded-3xl  lg:w-fit mx-auto  py-4 ">
+           <div className="z-40 h-[36rem] flex flex-col justify-center bg-cover custom-img   " >
+<div className=" backdrop-blur-2xl drop-shadow-2xl  w-[95%] rounded-3xl  lg:w-fit mx-auto  py-4 ">
 <img alt="LCWD Logo" src='/Imgs/lcwd_logo.png' width="500" height="500" decoding="async" data-nimg="1" className="w-36 lg:w-48 mx-auto" />
 <h1 className="text-center text-primary-dark text-4xl lg:text-7xl font-semibold px-5 lg:px-24 mt-3">
 Feel Free to Contact Us

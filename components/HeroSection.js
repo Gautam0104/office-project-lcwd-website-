@@ -97,7 +97,7 @@ const HeroSection = () => {
     </svg>
     </div>
     </div>
-    <p className="text-center font-bold lg:text-2xl xl:text-3xl">2000+</p><p className="text-center text-gray-700 text-lg lg:text-base xl:text-xl">Happy Students</p>
+    <p className="text-center font-bold lg:text-2xl xl:text-3xl">200000+</p><p className="text-center text-gray-700 text-lg lg:text-base xl:text-xl">Happy Students</p>
     </div>
     </div>
     </div>

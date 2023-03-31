@@ -35,7 +35,7 @@
   background: rgb(235, 45, 146);
  }
  .custom-img{
-  background-image: url('/Imgs/contact_bg2.jpg');
+  background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.2)), url('/Imgs/contact_bg.jpg')!important;
  }
  .ring-primary-medium:hover {
 border-color: #e8c721;
@@ -52,4 +52,39 @@ border-color: #e8c721;
   border-radius: theme('borderRadius.lg');
   padding: theme('spacing.6');
   box-shadow: theme('boxShadow.xl');
+
+
 }
+
+.bg-primary{
+  /* primary color */
+}
+
+
+
+.text-color-primary{
+
+}
+
+
+.bg-banner-img{
+
+}
+
+.heading-font-style{
+  /* 
+  font-size: 18
+  font weight : bold
+
+
+  */
+}
+
+.para-font-style{
+
+}
+
+
+
+
+
